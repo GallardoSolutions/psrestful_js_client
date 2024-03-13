@@ -4,6 +4,7 @@
   "description": "A proxy service for PromoStandards SOAP/XML to a REST/JSON  API",
   "license": "Unlicense",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "mocha --require @babel/register --recursive"
   },
@@ -12,7 +13,6 @@
   },
   "dependencies": {
     "@babel/cli": "^7.0.0",
-    "ps_res_tful_service_api": "github:GallardoSolutions/psrestful_js_client",
     "psrestful": "github:GallardoSolutions/psrestful_js_client",
     "superagent": "^5.3.0"
   },
