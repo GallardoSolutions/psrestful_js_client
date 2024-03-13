@@ -3,3 +3,5 @@
 .swagger-codegen-ignore
 .swagger-codegen/
 .travis.yml
+node_modules/
+package-lock.json
