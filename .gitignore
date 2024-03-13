@@ -1,0 +1,5 @@
+.DS_Store
+.babelrc
+.swagger-codegen-ignore
+.swagger-codegen/
+.travis.yml
