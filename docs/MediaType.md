@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.MediaType
+# psrestful.MediaType
 
 ## Enum
 

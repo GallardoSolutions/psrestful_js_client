@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('SelectionArray', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.SelectionArray();
+        instance = new psrestful.SelectionArray();
       });
 
       it('should create an instance of SelectionArray', function() {
         // TODO: update the code to test SelectionArray
-        expect(instance).to.be.a(PsResTfulServiceApi.SelectionArray);
+        expect(instance).to.be.a(psrestful.SelectionArray);
       });
 
       it('should have the property selection (base name: "selection")', function() {

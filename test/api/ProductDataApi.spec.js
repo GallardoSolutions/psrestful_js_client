@@ -21,15 +21,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new PsResTfulServiceApi.ProductDataApi();
+    instance = new psrestful.psrestful();
   });
 
   describe('(package)', function() {
@@ -68,7 +68,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.ProductCloseOutResponseV100);
+            expect(data).to.be.a(psrestful.ProductCloseOutResponseV100);
 
             done();
           });
@@ -89,7 +89,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.ProductCloseOutResponseV200);
+            expect(data).to.be.a(psrestful.ProductCloseOutResponseV200);
 
             done();
           });
@@ -110,7 +110,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.ProductDateModifiedResponseV100);
+            expect(data).to.be.a(psrestful.ProductDateModifiedResponseV100);
 
             done();
           });
@@ -131,7 +131,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.ProductDateModifiedResponseV200);
+            expect(data).to.be.a(psrestful.ProductDateModifiedResponseV200);
 
             done();
           });
@@ -152,7 +152,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.GetProductSellableResponseV100);
+            expect(data).to.be.a(psrestful.GetProductSellableResponseV100);
 
             done();
           });
@@ -173,7 +173,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.GetProductSellableResponseV200);
+            expect(data).to.be.a(psrestful.GetProductSellableResponseV200);
 
             done();
           });
@@ -194,7 +194,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.ProductResponseV100);
+            expect(data).to.be.a(psrestful.ProductResponseV100);
 
             done();
           });
@@ -215,7 +215,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.ProductResponseV200);
+            expect(data).to.be.a(psrestful.ProductResponseV200);
 
             done();
           });

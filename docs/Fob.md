@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.Fob
+# psrestful.Fob
 
 ## Properties
 Name | Type | Description | Notes

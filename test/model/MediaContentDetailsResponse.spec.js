@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('MediaContentDetailsResponse', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.MediaContentDetailsResponse();
+        instance = new psrestful.MediaContentDetailsResponse();
       });
 
       it('should create an instance of MediaContentDetailsResponse', function() {
         // TODO: update the code to test MediaContentDetailsResponse
-        expect(instance).to.be.a(PsResTfulServiceApi.MediaContentDetailsResponse);
+        expect(instance).to.be.a(psrestful.MediaContentDetailsResponse);
       });
 
       it('should have the property mediaContentArray (base name: "MediaContentArray")', function() {

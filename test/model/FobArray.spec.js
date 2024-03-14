@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('FobArray', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.FobArray();
+        instance = new psrestful.FobArray();
       });
 
       it('should create an instance of FobArray', function() {
         // TODO: update the code to test FobArray
-        expect(instance).to.be.a(PsResTfulServiceApi.FobArray);
+        expect(instance).to.be.a(psrestful.FobArray);
       });
 
       it('should have the property fob (base name: "Fob")', function() {

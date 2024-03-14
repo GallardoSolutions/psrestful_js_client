@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('BodySendPo', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.BodySendPo();
+        instance = new psrestful.BodySendPo();
       });
 
       it('should create an instance of BodySendPo', function() {
         // TODO: update the code to test BodySendPo
-        expect(instance).to.be.a(PsResTfulServiceApi.BodySendPo);
+        expect(instance).to.be.a(psrestful.BodySendPo);
       });
 
       it('should have the property po (base name: "po")', function() {

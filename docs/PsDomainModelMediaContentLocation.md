@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PsDomainModelMediaContentLocation
+# psrestful.PsDomainModelMediaContentLocation
 
 ## Properties
 Name | Type | Description | Notes

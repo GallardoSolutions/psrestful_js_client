@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ProductKeyword', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ProductKeyword();
+        instance = new psrestful.ProductKeyword();
       });
 
       it('should create an instance of ProductKeyword', function() {
         // TODO: update the code to test ProductKeyword
-        expect(instance).to.be.a(PsResTfulServiceApi.ProductKeyword);
+        expect(instance).to.be.a(psrestful.ProductKeyword);
       });
 
       it('should have the property keyword (base name: "keyword")', function() {

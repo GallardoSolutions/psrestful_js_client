@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.FutureAvailabilityArray
+# psrestful.FutureAvailabilityArray
 
 ## Properties
 Name | Type | Description | Notes

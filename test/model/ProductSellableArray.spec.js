@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ProductSellableArray', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ProductSellableArray();
+        instance = new psrestful.ProductSellableArray();
       });
 
       it('should create an instance of ProductSellableArray', function() {
         // TODO: update the code to test ProductSellableArray
-        expect(instance).to.be.a(PsResTfulServiceApi.ProductSellableArray);
+        expect(instance).to.be.a(psrestful.ProductSellableArray);
       });
 
       it('should have the property productSellable (base name: "ProductSellable")', function() {

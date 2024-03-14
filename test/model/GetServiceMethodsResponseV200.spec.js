@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('GetServiceMethodsResponseV200', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.GetServiceMethodsResponseV200();
+        instance = new psrestful.GetServiceMethodsResponseV200();
       });
 
       it('should create an instance of GetServiceMethodsResponseV200', function() {
         // TODO: update the code to test GetServiceMethodsResponseV200
-        expect(instance).to.be.a(PsResTfulServiceApi.GetServiceMethodsResponseV200);
+        expect(instance).to.be.a(psrestful.GetServiceMethodsResponseV200);
       });
 
       it('should have the property serviceMethodArray (base name: "ServiceMethodArray")', function() {

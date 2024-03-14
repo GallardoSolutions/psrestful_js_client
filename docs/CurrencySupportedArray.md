@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.CurrencySupportedArray
+# psrestful.CurrencySupportedArray
 
 ## Properties
 Name | Type | Description | Notes

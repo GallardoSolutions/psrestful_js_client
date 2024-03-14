@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ArtworkType
+# psrestful.ArtworkType
 
 ## Enum
 

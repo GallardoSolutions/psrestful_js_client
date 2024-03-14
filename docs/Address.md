@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.Address
+# psrestful.Address
 
 ## Properties
 Name | Type | Description | Notes

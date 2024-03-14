@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('Status', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.Status();
+        instance = new psrestful.Status();
       });
 
       it('should create an instance of Status', function() {
         // TODO: update the code to test Status
-        expect(instance).to.be.a(PsResTfulServiceApi.Status);
+        expect(instance).to.be.a(psrestful.Status);
       });
 
       it('should have the property id (base name: "id")', function() {

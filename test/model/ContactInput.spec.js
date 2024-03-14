@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ContactInput', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ContactInput();
+        instance = new psrestful.ContactInput();
       });
 
       it('should create an instance of ContactInput', function() {
         // TODO: update the code to test ContactInput
-        expect(instance).to.be.a(PsResTfulServiceApi.ContactInput);
+        expect(instance).to.be.a(psrestful.ContactInput);
       });
 
       it('should have the property contactType (base name: "contactType")', function() {

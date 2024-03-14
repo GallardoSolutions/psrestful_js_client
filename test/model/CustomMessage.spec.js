@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('CustomMessage', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.CustomMessage();
+        instance = new psrestful.CustomMessage();
       });
 
       it('should create an instance of CustomMessage', function() {
         // TODO: update the code to test CustomMessage
-        expect(instance).to.be.a(PsResTfulServiceApi.CustomMessage);
+        expect(instance).to.be.a(psrestful.CustomMessage);
       });
 
     });

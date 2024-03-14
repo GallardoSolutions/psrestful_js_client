@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.FilterArray1
+# psrestful.FilterArray1
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ClassType
+# psrestful.ClassType
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ShippingPackageArray
+# psrestful.ShippingPackageArray
 
 ## Properties
 Name | Type | Description | Notes

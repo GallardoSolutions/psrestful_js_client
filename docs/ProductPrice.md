@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ProductPrice
+# psrestful.ProductPrice
 
 ## Properties
 Name | Type | Description | Notes

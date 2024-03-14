@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ApparelSize', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ApparelSize();
+        instance = new psrestful.ApparelSize();
       });
 
       it('should create an instance of ApparelSize', function() {
         // TODO: update the code to test ApparelSize
-        expect(instance).to.be.a(PsResTfulServiceApi.ApparelSize);
+        expect(instance).to.be.a(psrestful.ApparelSize);
       });
 
       it('should have the property apparelStyle (base name: "apparelStyle")', function() {

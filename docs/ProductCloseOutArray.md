@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ProductCloseOutArray
+# psrestful.ProductCloseOutArray
 
 ## Properties
 Name | Type | Description | Notes

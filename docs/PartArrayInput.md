@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PartArrayInput
+# psrestful.PartArrayInput
 
 ## Properties
 Name | Type | Description | Notes

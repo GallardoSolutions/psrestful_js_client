@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ArtworkFileArray
+# psrestful.ArtworkFileArray
 
 ## Properties
 Name | Type | Description | Notes

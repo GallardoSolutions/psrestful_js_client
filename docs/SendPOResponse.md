@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.SendPOResponse
+# psrestful.SendPOResponse
 
 ## Properties
 Name | Type | Description | Notes

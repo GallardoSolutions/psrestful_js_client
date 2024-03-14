@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ContactInput
+# psrestful.ContactInput
 
 ## Properties
 Name | Type | Description | Notes

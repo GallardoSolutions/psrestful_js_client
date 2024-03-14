@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.SelectionArray
+# psrestful.SelectionArray
 
 ## Properties
 Name | Type | Description | Notes

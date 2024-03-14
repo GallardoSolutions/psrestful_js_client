@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.CountryIso2
+# psrestful.CountryIso2
 
 ## Enum
 

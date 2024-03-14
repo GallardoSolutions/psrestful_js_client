@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.LocationId
+# psrestful.LocationId
 
 ## Properties
 Name | Type | Description | Notes

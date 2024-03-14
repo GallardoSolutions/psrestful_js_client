@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('DigitalProofAddressArray', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.DigitalProofAddressArray();
+        instance = new psrestful.DigitalProofAddressArray();
       });
 
       it('should create an instance of DigitalProofAddressArray', function() {
         // TODO: update the code to test DigitalProofAddressArray
-        expect(instance).to.be.a(PsResTfulServiceApi.DigitalProofAddressArray);
+        expect(instance).to.be.a(psrestful.DigitalProofAddressArray);
       });
 
       it('should have the property digitalProofAddress (base name: "DigitalProofAddress")', function() {

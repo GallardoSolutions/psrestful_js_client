@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('QuantityAvailable', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.QuantityAvailable();
+        instance = new psrestful.QuantityAvailable();
       });
 
       it('should create an instance of QuantityAvailable', function() {
         // TODO: update the code to test QuantityAvailable
-        expect(instance).to.be.a(PsResTfulServiceApi.QuantityAvailable);
+        expect(instance).to.be.a(psrestful.QuantityAvailable);
       });
 
       it('should have the property quantity (base name: "Quantity")', function() {

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.LabelSize
+# psrestful.LabelSize
 
 ## Enum
 

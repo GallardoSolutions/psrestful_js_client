@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.InvoiceApi
+# psrestful.InvoiceApi
 
 All URIs are relative to *https://api.psrestful.com/*
 
@@ -15,8 +15,8 @@ Get Invoices
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
-let defaultClient = PsResTfulServiceApi.ApiClient.instance;
+import {psrestful} from 'ps_res_tful_service_api';
+let defaultClient = psrestful.ApiClient.instance;
 
 // Configure API key authorization: APIKeyHeader
 let APIKeyHeader = defaultClient.authentications['APIKeyHeader'];
@@ -32,9 +32,9 @@ HTTPBasic.password = 'YOUR PASSWORD';
 let OAuth2PasswordBearer = defaultClient.authentications['OAuth2PasswordBearer'];
 OAuth2PasswordBearer.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new PsResTfulServiceApi.InvoiceApi();
+let apiInstance = new psrestful.InvoiceApi();
 let supplierCode = null; // Object | 
-let queryType = new PsResTfulServiceApi.PsDomainModelInvoiceQueryType(); // PsDomainModelInvoiceQueryType | 
+let queryType = new psrestful.PsDomainModelInvoiceQueryType(); // PsDomainModelInvoiceQueryType | 
 let opts = { 
   'body': null, // Object | 
   'referenceNumber': null, // Object | 
@@ -90,8 +90,8 @@ This endpoint is used to retrieve a list of voided invoices. When QueryType&#x3D
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
-let defaultClient = PsResTfulServiceApi.ApiClient.instance;
+import {psrestful} from 'ps_res_tful_service_api';
+let defaultClient = psrestful.ApiClient.instance;
 
 // Configure API key authorization: APIKeyHeader
 let APIKeyHeader = defaultClient.authentications['APIKeyHeader'];
@@ -107,9 +107,9 @@ HTTPBasic.password = 'YOUR PASSWORD';
 let OAuth2PasswordBearer = defaultClient.authentications['OAuth2PasswordBearer'];
 OAuth2PasswordBearer.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new PsResTfulServiceApi.InvoiceApi();
+let apiInstance = new psrestful.InvoiceApi();
 let supplierCode = null; // Object | 
-let queryType = new PsResTfulServiceApi.PsDomainModelInvoiceQueryType(); // PsDomainModelInvoiceQueryType | 
+let queryType = new psrestful.PsDomainModelInvoiceQueryType(); // PsDomainModelInvoiceQueryType | 
 let opts = { 
   'body': null, // Object | 
   'referenceNumber': null, // Object | 

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ApparelSize
+# psrestful.ApparelSize
 
 ## Properties
 Name | Type | Description | Notes

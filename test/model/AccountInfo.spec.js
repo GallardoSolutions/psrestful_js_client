@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('AccountInfo', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.AccountInfo();
+        instance = new psrestful.AccountInfo();
       });
 
       it('should create an instance of AccountInfo', function() {
         // TODO: update the code to test AccountInfo
-        expect(instance).to.be.a(PsResTfulServiceApi.AccountInfo);
+        expect(instance).to.be.a(psrestful.AccountInfo);
       });
 
       it('should have the property accountName (base name: "accountName")', function() {

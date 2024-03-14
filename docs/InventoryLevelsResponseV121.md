@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.InventoryLevelsResponseV121
+# psrestful.InventoryLevelsResponseV121
 
 ## Properties
 Name | Type | Description | Notes

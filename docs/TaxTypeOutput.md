@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.TaxTypeOutput
+# psrestful.TaxTypeOutput
 
 ## Enum
 

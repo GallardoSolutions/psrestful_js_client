@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.SupportedOrderType
+# psrestful.SupportedOrderType
 
 ## Enum
 

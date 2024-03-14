@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.DecorationGeometryType
+# psrestful.DecorationGeometryType
 
 ## Enum
 

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ProductResponseV200
+# psrestful.ProductResponseV200
 
 ## Properties
 Name | Type | Description | Notes

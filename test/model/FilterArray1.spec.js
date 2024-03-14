@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('FilterArray1', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.FilterArray1();
+        instance = new psrestful.FilterArray1();
       });
 
       it('should create an instance of FilterArray1', function() {
         // TODO: update the code to test FilterArray1
-        expect(instance).to.be.a(PsResTfulServiceApi.FilterArray1);
+        expect(instance).to.be.a(psrestful.FilterArray1);
       });
 
       it('should have the property filterArray (base name: "FilterArray")', function() {

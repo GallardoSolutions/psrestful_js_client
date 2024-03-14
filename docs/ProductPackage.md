@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ProductPackage
+# psrestful.ProductPackage
 
 ## Properties
 Name | Type | Description | Notes

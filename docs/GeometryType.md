@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.GeometryType
+# psrestful.GeometryType
 
 ## Enum
 

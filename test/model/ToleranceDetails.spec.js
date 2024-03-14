@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ToleranceDetails', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ToleranceDetails();
+        instance = new psrestful.ToleranceDetails();
       });
 
       it('should create an instance of ToleranceDetails', function() {
         // TODO: update the code to test ToleranceDetails
-        expect(instance).to.be.a(PsResTfulServiceApi.ToleranceDetails);
+        expect(instance).to.be.a(psrestful.ToleranceDetails);
       });
 
       it('should have the property tolerance (base name: "tolerance")', function() {

@@ -21,15 +21,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new PsResTfulServiceApi.ProductPriceAndConfigurationApi();
+    instance = new psrestful.ProductPriceAndConfigurationApi();
   });
 
   describe('(package)', function() {
@@ -46,7 +46,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.AvailableChargesResponse);
+            expect(data).to.be.a(psrestful.AvailableChargesResponse);
 
             done();
           });
@@ -67,7 +67,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.AvailableLocationsResponse);
+            expect(data).to.be.a(psrestful.AvailableLocationsResponse);
 
             done();
           });
@@ -88,7 +88,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.ConfigurationAndPricingResponse);
+            expect(data).to.be.a(psrestful.ConfigurationAndPricingResponse);
 
             done();
           });
@@ -109,7 +109,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.DecorationColorResponse);
+            expect(data).to.be.a(psrestful.DecorationColorResponse);
 
             done();
           });
@@ -130,7 +130,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.FobPointsResponse);
+            expect(data).to.be.a(psrestful.FobPointsResponse);
 
             done();
           });

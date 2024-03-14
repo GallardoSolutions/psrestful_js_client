@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.GetMediaDateModifiedResponse
+# psrestful.GetMediaDateModifiedResponse
 
 ## Properties
 Name | Type | Description | Notes

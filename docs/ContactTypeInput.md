@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ContactTypeInput
+# psrestful.ContactTypeInput
 
 ## Enum
 

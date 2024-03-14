@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.QuantityAvailable
+# psrestful.QuantityAvailable
 
 ## Properties
 Name | Type | Description | Notes

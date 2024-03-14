@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.TransportMechanism
+# psrestful.TransportMechanism
 
 ## Enum
 

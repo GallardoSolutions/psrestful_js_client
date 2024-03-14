@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ProductCloseOutResponseV100
+# psrestful.ProductCloseOutResponseV100
 
 ## Properties
 Name | Type | Description | Notes

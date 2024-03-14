@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.LocationDecoration
+# psrestful.LocationDecoration
 
 ## Properties
 Name | Type | Description | Notes

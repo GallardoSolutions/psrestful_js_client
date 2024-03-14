@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ShippingPackage', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ShippingPackage();
+        instance = new psrestful.ShippingPackage();
       });
 
       it('should create an instance of ShippingPackage', function() {
         // TODO: update the code to test ShippingPackage
-        expect(instance).to.be.a(PsResTfulServiceApi.ShippingPackage);
+        expect(instance).to.be.a(psrestful.ShippingPackage);
       });
 
       it('should have the property packageType (base name: "packageType")', function() {

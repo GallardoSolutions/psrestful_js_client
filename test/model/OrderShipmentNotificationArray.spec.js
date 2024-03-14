@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('OrderShipmentNotificationArray', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.OrderShipmentNotificationArray();
+        instance = new psrestful.OrderShipmentNotificationArray();
       });
 
       it('should create an instance of OrderShipmentNotificationArray', function() {
         // TODO: update the code to test OrderShipmentNotificationArray
-        expect(instance).to.be.a(PsResTfulServiceApi.OrderShipmentNotificationArray);
+        expect(instance).to.be.a(psrestful.OrderShipmentNotificationArray);
       });
 
       it('should have the property orderShipmentNotification (base name: "OrderShipmentNotification")', function() {

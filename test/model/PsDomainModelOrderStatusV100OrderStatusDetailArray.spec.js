@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('PsDomainModelOrderStatusV100OrderStatusDetailArray', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.PsDomainModelOrderStatusV100OrderStatusDetailArray();
+        instance = new psrestful.PsDomainModelOrderStatusV100OrderStatusDetailArray();
       });
 
       it('should create an instance of PsDomainModelOrderStatusV100OrderStatusDetailArray', function() {
         // TODO: update the code to test PsDomainModelOrderStatusV100OrderStatusDetailArray
-        expect(instance).to.be.a(PsResTfulServiceApi.PsDomainModelOrderStatusV100OrderStatusDetailArray);
+        expect(instance).to.be.a(psrestful.PsDomainModelOrderStatusV100OrderStatusDetailArray);
       });
 
       it('should have the property orderStatusDetail (base name: "OrderStatusDetail")', function() {

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.GetProductSellableResponseV200
+# psrestful.GetProductSellableResponseV200
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ShipmentDestinationType
+# psrestful.ShipmentDestinationType
 
 ## Enum
 

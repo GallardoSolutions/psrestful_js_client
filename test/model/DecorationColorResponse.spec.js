@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('DecorationColorResponse', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.DecorationColorResponse();
+        instance = new psrestful.DecorationColorResponse();
       });
 
       it('should create an instance of DecorationColorResponse', function() {
         // TODO: update the code to test DecorationColorResponse
-        expect(instance).to.be.a(PsResTfulServiceApi.DecorationColorResponse);
+        expect(instance).to.be.a(psrestful.DecorationColorResponse);
       });
 
       it('should have the property decorationColors (base name: "DecorationColors")', function() {

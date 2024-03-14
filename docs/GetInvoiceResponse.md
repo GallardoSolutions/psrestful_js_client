@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.GetInvoiceResponse
+# psrestful.GetInvoiceResponse
 
 ## Properties
 Name | Type | Description | Notes

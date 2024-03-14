@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.OrderShipmentNotificationArray
+# psrestful.OrderShipmentNotificationArray
 
 ## Properties
 Name | Type | Description | Notes

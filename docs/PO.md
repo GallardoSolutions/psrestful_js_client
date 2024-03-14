@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PO
+# psrestful.PO
 
 ## Properties
 Name | Type | Description | Notes

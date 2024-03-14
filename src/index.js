@@ -256,7 +256,6 @@ import ValidationError from './model/ValidationError';
 import VoidedInvoice from './model/VoidedInvoice';
 import VoidedInvoiceArray from './model/VoidedInvoiceArray';
 import WeightUOM from './model/WeightUOM';
-import WeightUoM from './model/WeightUoM';
 import DefaultApi from './api/DefaultApi';
 import InventoryApi from './api/InventoryApi';
 import InvoiceApi from './api/InvoiceApi';
@@ -273,9 +272,9 @@ import PurchaseOrderApi from './api/PurchaseOrderApi';
 * <p>
 * An AMD (recommended!) or CommonJS application will generally do something equivalent to the following:
 * <pre>
-* var PsResTfulServiceApi = require('index'); // See note below*.
-* var xxxSvc = new PsResTfulServiceApi.XxxApi(); // Allocate the API class we're going to use.
-* var yyyModel = new PsResTfulServiceApi.Yyy(); // Construct a model instance.
+* var psrestful = require('index'); // See note below*.
+* var xxxSvc = new psrestful.XxxApi(); // Allocate the API class we're going to use.
+* var yyyModel = new psrestful.Yyy(); // Construct a model instance.
 * yyyModel.someProperty = 'someValue';
 * ...
 * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.
@@ -287,8 +286,8 @@ import PurchaseOrderApi from './api/PurchaseOrderApi';
 * <p>
 * A non-AMD browser application (discouraged) might do something like this:
 * <pre>
-* var xxxSvc = new PsResTfulServiceApi.XxxApi(); // Allocate the API class we're going to use.
-* var yyy = new PsResTfulServiceApi.Yyy(); // Construct a model instance.
+* var xxxSvc = new psrestful.XxxApi(); // Allocate the API class we're going to use.
+* var yyy = new psrestful.Yyy(); // Construct a model instance.
 * yyyModel.someProperty = 'someValue';
 * ...
 * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.
@@ -1762,13 +1761,6 @@ export {
      * @property {module:model/WeightUOM}
      */
     WeightUOM,
-
-    /**
-     * The WeightUoM model constructor.
-     * @property {module:model/WeightUoM}
-     */
-    WeightUoM,
-
     /**
     * The DefaultApi service constructor.
     * @property {module:api/DefaultApi}

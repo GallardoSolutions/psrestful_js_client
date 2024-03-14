@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ColorSystem
+# psrestful.ColorSystem
 
 ## Enum
 

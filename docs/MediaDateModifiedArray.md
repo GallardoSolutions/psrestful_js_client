@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.MediaDateModifiedArray
+# psrestful.MediaDateModifiedArray
 
 ## Properties
 Name | Type | Description | Notes

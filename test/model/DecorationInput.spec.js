@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('DecorationInput', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.DecorationInput();
+        instance = new psrestful.DecorationInput();
       });
 
       it('should create an instance of DecorationInput', function() {
         // TODO: update the code to test DecorationInput
-        expect(instance).to.be.a(PsResTfulServiceApi.DecorationInput);
+        expect(instance).to.be.a(psrestful.DecorationInput);
       });
 
       it('should have the property decorationId (base name: "decorationId")', function() {

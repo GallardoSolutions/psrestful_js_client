@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ShipmentLink
+# psrestful.ShipmentLink
 
 ## Properties
 Name | Type | Description | Notes

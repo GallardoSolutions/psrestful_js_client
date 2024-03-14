@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ClassTypeArray
+# psrestful.ClassTypeArray
 
 ## Properties
 Name | Type | Description | Notes

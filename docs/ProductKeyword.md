@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ProductKeyword
+# psrestful.ProductKeyword
 
 ## Properties
 Name | Type | Description | Notes

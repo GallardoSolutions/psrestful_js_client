@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ProductPriceGroup
+# psrestful.ProductPriceGroup
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.LineItemArray
+# psrestful.LineItemArray
 
 ## Properties
 Name | Type | Description | Notes

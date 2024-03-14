@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.MediaContentArray
+# psrestful.MediaContentArray
 
 ## Properties
 Name | Type | Description | Notes

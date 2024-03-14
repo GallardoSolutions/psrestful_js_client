@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PsDomainModelPpcLocation
+# psrestful.PsDomainModelPpcLocation
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ConfigurationOutput
+# psrestful.ConfigurationOutput
 
 ## Properties
 Name | Type | Description | Notes

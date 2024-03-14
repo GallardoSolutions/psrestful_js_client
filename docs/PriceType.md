@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PriceType
+# psrestful.PriceType
 
 ## Enum
 

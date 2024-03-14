@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.DimUOM
+# psrestful.DimUOM
 
 ## Enum
 

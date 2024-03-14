@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ChargeTypeInput
+# psrestful.ChargeTypeInput
 
 ## Enum
 

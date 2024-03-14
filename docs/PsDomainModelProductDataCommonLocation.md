@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PsDomainModelProductDataCommonLocation
+# psrestful.PsDomainModelProductDataCommonLocation
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.GetServiceMethodsResponseV200
+# psrestful.GetServiceMethodsResponseV200
 
 ## Properties
 Name | Type | Description | Notes

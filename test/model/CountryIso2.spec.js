@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,7 +31,7 @@
   describe('(package)', function() {
     describe('CountryIso2', function() {
       beforeEach(function() {
-        instance = PsResTfulServiceApi.CountryIso2;
+        instance = psrestful.CountryIso2;
       });
 
       it('should create an instance of CountryIso2', function() {

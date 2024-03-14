@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ResponseTo
+# psrestful.ResponseTo
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.DecorationMethodArray
+# psrestful.DecorationMethodArray
 
 ## Properties
 Name | Type | Description | Notes

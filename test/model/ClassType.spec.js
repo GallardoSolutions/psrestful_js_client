@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ClassType', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ClassType();
+        instance = new psrestful.ClassType();
       });
 
       it('should create an instance of ClassType', function() {
         // TODO: update the code to test ClassType
-        expect(instance).to.be.a(PsResTfulServiceApi.ClassType);
+        expect(instance).to.be.a(psrestful.ClassType);
       });
 
       it('should have the property classTypeId (base name: "classTypeId")', function() {

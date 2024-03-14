@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PurchaseOrderApi
+# psrestful.PurchaseOrderApi
 
 All URIs are relative to *https://api.psrestful.com/*
 
@@ -17,8 +17,8 @@ This function returns the supported Order Types the vendor accepts.
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
-let defaultClient = PsResTfulServiceApi.ApiClient.instance;
+import {psrestful} from 'ps_res_tful_service_api';
+let defaultClient = psrestful.ApiClient.instance;
 
 // Configure API key authorization: APIKeyHeader
 let APIKeyHeader = defaultClient.authentications['APIKeyHeader'];
@@ -34,7 +34,7 @@ HTTPBasic.password = 'YOUR PASSWORD';
 let OAuth2PasswordBearer = defaultClient.authentications['OAuth2PasswordBearer'];
 OAuth2PasswordBearer.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new PsResTfulServiceApi.PurchaseOrderApi();
+let apiInstance = new psrestful.PurchaseOrderApi();
 let supplierCode = null; // Object | 
 let opts = { 
   'body': null, // Object | 
@@ -84,8 +84,8 @@ This function will send blank, sample, simple or configured purchase order to a 
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
-let defaultClient = PsResTfulServiceApi.ApiClient.instance;
+import {psrestful} from 'ps_res_tful_service_api';
+let defaultClient = psrestful.ApiClient.instance;
 
 // Configure API key authorization: APIKeyHeader
 let APIKeyHeader = defaultClient.authentications['APIKeyHeader'];
@@ -101,8 +101,8 @@ HTTPBasic.password = 'YOUR PASSWORD';
 let OAuth2PasswordBearer = defaultClient.authentications['OAuth2PasswordBearer'];
 OAuth2PasswordBearer.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new PsResTfulServiceApi.PurchaseOrderApi();
-let body = new PsResTfulServiceApi.BodySendPo(); // BodySendPo | 
+let apiInstance = new psrestful.PurchaseOrderApi();
+let body = new psrestful.BodySendPo(); // BodySendPo | 
 let supplierCode = null; // Object | 
 let opts = { 
   'xForwardedFor': null, // Object | 

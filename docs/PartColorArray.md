@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PartColorArray
+# psrestful.PartColorArray
 
 ## Properties
 Name | Type | Description | Notes

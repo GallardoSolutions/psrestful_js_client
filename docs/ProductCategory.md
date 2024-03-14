@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ProductCategory
+# psrestful.ProductCategory
 
 ## Properties
 Name | Type | Description | Notes

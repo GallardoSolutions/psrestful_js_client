@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('OrderStatusTypesResponse', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.OrderStatusTypesResponse();
+        instance = new psrestful.OrderStatusTypesResponse();
       });
 
       it('should create an instance of OrderStatusTypesResponse', function() {
         // TODO: update the code to test OrderStatusTypesResponse
-        expect(instance).to.be.a(PsResTfulServiceApi.OrderStatusTypesResponse);
+        expect(instance).to.be.a(psrestful.OrderStatusTypesResponse);
       });
 
       it('should have the property statusArray (base name: "StatusArray")', function() {

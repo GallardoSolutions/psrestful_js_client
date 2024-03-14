@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.AvailableChargesResponse
+# psrestful.AvailableChargesResponse
 
 ## Properties
 Name | Type | Description | Notes

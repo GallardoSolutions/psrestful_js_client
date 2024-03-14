@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('InventoryLocation', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.InventoryLocation();
+        instance = new psrestful.InventoryLocation();
       });
 
       it('should create an instance of InventoryLocation', function() {
         // TODO: update the code to test InventoryLocation
-        expect(instance).to.be.a(PsResTfulServiceApi.InventoryLocation);
+        expect(instance).to.be.a(psrestful.InventoryLocation);
       });
 
       it('should have the property inventoryLocationId (base name: "inventoryLocationId")', function() {

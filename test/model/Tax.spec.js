@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('Tax', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.Tax();
+        instance = new psrestful.Tax();
       });
 
       it('should create an instance of Tax', function() {
         // TODO: update the code to test Tax
-        expect(instance).to.be.a(PsResTfulServiceApi.Tax);
+        expect(instance).to.be.a(psrestful.Tax);
       });
 
       it('should have the property taxType (base name: "taxType")', function() {

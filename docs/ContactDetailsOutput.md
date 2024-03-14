@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ContactDetailsOutput
+# psrestful.ContactDetailsOutput
 
 ## Properties
 Name | Type | Description | Notes

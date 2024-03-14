@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.BodySendPo
+# psrestful.BodySendPo
 
 ## Properties
 Name | Type | Description | Notes

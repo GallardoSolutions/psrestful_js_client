@@ -21,15 +21,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new PsResTfulServiceApi.InventoryApi();
+    instance = new psrestful.InventoryApi();
   });
 
   describe('(package)', function() {
@@ -46,7 +46,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.FilterValuesResponseV200);
+            expect(data).to.be.a(psrestful.FilterValuesResponseV200);
 
             done();
           });
@@ -67,7 +67,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.InventoryLevelsResponseV121);
+            expect(data).to.be.a(psrestful.InventoryLevelsResponseV121);
 
             done();
           });
@@ -88,7 +88,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.InventoryLevelsResponseV200);
+            expect(data).to.be.a(psrestful.InventoryLevelsResponseV200);
 
             done();
           });

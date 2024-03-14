@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ConfigurationType
+# psrestful.ConfigurationType
 
 ## Enum
 

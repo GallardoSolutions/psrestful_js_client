@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('LineItemArray', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.LineItemArray();
+        instance = new psrestful.LineItemArray();
       });
 
       it('should create an instance of LineItemArray', function() {
         // TODO: update the code to test LineItemArray
-        expect(instance).to.be.a(PsResTfulServiceApi.LineItemArray);
+        expect(instance).to.be.a(psrestful.LineItemArray);
       });
 
       it('should have the property lineItem (base name: "LineItem")', function() {

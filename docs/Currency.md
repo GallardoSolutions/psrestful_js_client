@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.Currency
+# psrestful.Currency
 
 ## Enum
 

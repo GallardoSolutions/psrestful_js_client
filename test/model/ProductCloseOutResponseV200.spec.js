@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ProductCloseOutResponseV200', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ProductCloseOutResponseV200();
+        instance = new psrestful.ProductCloseOutResponseV200();
       });
 
       it('should create an instance of ProductCloseOutResponseV200', function() {
         // TODO: update the code to test ProductCloseOutResponseV200
-        expect(instance).to.be.a(PsResTfulServiceApi.ProductCloseOutResponseV200);
+        expect(instance).to.be.a(psrestful.ProductCloseOutResponseV200);
       });
 
       it('should have the property productCloseOutArray (base name: "ProductCloseOutArray")', function() {

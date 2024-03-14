@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.FobPointsResponse
+# psrestful.FobPointsResponse
 
 ## Properties
 Name | Type | Description | Notes

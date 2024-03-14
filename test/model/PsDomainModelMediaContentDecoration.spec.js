@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('PsDomainModelMediaContentDecoration', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.PsDomainModelMediaContentDecoration();
+        instance = new psrestful.PsDomainModelMediaContentDecoration();
       });
 
       it('should create an instance of PsDomainModelMediaContentDecoration', function() {
         // TODO: update the code to test PsDomainModelMediaContentDecoration
-        expect(instance).to.be.a(PsResTfulServiceApi.PsDomainModelMediaContentDecoration);
+        expect(instance).to.be.a(psrestful.PsDomainModelMediaContentDecoration);
       });
 
       it('should have the property decorationId (base name: "decorationId")', function() {

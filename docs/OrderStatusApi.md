@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.OrderStatusApi
+# psrestful.OrderStatusApi
 
 All URIs are relative to *https://api.psrestful.com/*
 
@@ -18,8 +18,8 @@ Get Issue
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
-let defaultClient = PsResTfulServiceApi.ApiClient.instance;
+import {psrestful} from 'ps_res_tful_service_api';
+let defaultClient = psrestful.ApiClient.instance;
 
 // Configure API key authorization: APIKeyHeader
 let APIKeyHeader = defaultClient.authentications['APIKeyHeader'];
@@ -35,7 +35,7 @@ HTTPBasic.password = 'YOUR PASSWORD';
 let OAuth2PasswordBearer = defaultClient.authentications['OAuth2PasswordBearer'];
 OAuth2PasswordBearer.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new PsResTfulServiceApi.OrderStatusApi();
+let apiInstance = new psrestful.OrderStatusApi();
 let supplierCode = null; // Object | 
 let issueId = null; // Object | 
 let opts = { 
@@ -85,8 +85,8 @@ Get Order Status Details
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
-let defaultClient = PsResTfulServiceApi.ApiClient.instance;
+import {psrestful} from 'ps_res_tful_service_api';
+let defaultClient = psrestful.ApiClient.instance;
 
 // Configure API key authorization: APIKeyHeader
 let APIKeyHeader = defaultClient.authentications['APIKeyHeader'];
@@ -102,9 +102,9 @@ HTTPBasic.password = 'YOUR PASSWORD';
 let OAuth2PasswordBearer = defaultClient.authentications['OAuth2PasswordBearer'];
 OAuth2PasswordBearer.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new PsResTfulServiceApi.OrderStatusApi();
+let apiInstance = new psrestful.OrderStatusApi();
 let supplierCode = null; // Object | 
-let queryType = new PsResTfulServiceApi.PsDomainModelOrderStatusV100QueryType(); // PsDomainModelOrderStatusV100QueryType | 
+let queryType = new psrestful.PsDomainModelOrderStatusV100QueryType(); // PsDomainModelOrderStatusV100QueryType | 
 let opts = { 
   'body': null, // Object | 
   'referenceNumber': null, // Object | 
@@ -156,8 +156,8 @@ Get Order Status Types
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
-let defaultClient = PsResTfulServiceApi.ApiClient.instance;
+import {psrestful} from 'ps_res_tful_service_api';
+let defaultClient = psrestful.ApiClient.instance;
 
 // Configure API key authorization: APIKeyHeader
 let APIKeyHeader = defaultClient.authentications['APIKeyHeader'];
@@ -173,7 +173,7 @@ HTTPBasic.password = 'YOUR PASSWORD';
 let OAuth2PasswordBearer = defaultClient.authentications['OAuth2PasswordBearer'];
 OAuth2PasswordBearer.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new PsResTfulServiceApi.OrderStatusApi();
+let apiInstance = new psrestful.OrderStatusApi();
 let supplierCode = null; // Object | 
 let opts = { 
   'body': null, // Object | 
@@ -221,8 +221,8 @@ Get Order Status
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
-let defaultClient = PsResTfulServiceApi.ApiClient.instance;
+import {psrestful} from 'ps_res_tful_service_api';
+let defaultClient = psrestful.ApiClient.instance;
 
 // Configure API key authorization: APIKeyHeader
 let APIKeyHeader = defaultClient.authentications['APIKeyHeader'];
@@ -238,9 +238,9 @@ HTTPBasic.password = 'YOUR PASSWORD';
 let OAuth2PasswordBearer = defaultClient.authentications['OAuth2PasswordBearer'];
 OAuth2PasswordBearer.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new PsResTfulServiceApi.OrderStatusApi();
+let apiInstance = new psrestful.OrderStatusApi();
 let supplierCode = null; // Object | 
-let queryType = new PsResTfulServiceApi.PsDomainModelOrderStatusV100QueryType(); // PsDomainModelOrderStatusV100QueryType | 
+let queryType = new psrestful.PsDomainModelOrderStatusV100QueryType(); // PsDomainModelOrderStatusV100QueryType | 
 let opts = { 
   'body': null, // Object | 
   'referenceNumber': null, // Object | 
@@ -292,8 +292,8 @@ Get Service Methods
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
-let defaultClient = PsResTfulServiceApi.ApiClient.instance;
+import {psrestful} from 'ps_res_tful_service_api';
+let defaultClient = psrestful.ApiClient.instance;
 
 // Configure API key authorization: APIKeyHeader
 let APIKeyHeader = defaultClient.authentications['APIKeyHeader'];
@@ -309,7 +309,7 @@ HTTPBasic.password = 'YOUR PASSWORD';
 let OAuth2PasswordBearer = defaultClient.authentications['OAuth2PasswordBearer'];
 OAuth2PasswordBearer.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new PsResTfulServiceApi.OrderStatusApi();
+let apiInstance = new psrestful.OrderStatusApi();
 let supplierCode = null; // Object | 
 let opts = { 
   'body': null, // Object | 

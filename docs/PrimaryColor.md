@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PrimaryColor
+# psrestful.PrimaryColor
 
 ## Properties
 Name | Type | Description | Notes

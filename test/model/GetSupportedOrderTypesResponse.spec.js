@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('GetSupportedOrderTypesResponse', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.GetSupportedOrderTypesResponse();
+        instance = new psrestful.GetSupportedOrderTypesResponse();
       });
 
       it('should create an instance of GetSupportedOrderTypesResponse', function() {
         // TODO: update the code to test GetSupportedOrderTypesResponse
-        expect(instance).to.be.a(PsResTfulServiceApi.GetSupportedOrderTypesResponse);
+        expect(instance).to.be.a(psrestful.GetSupportedOrderTypesResponse);
       });
 
       it('should have the property supportedOrderTypes (base name: "supportedOrderTypes")', function() {

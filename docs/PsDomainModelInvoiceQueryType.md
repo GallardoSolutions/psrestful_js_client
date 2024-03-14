@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PsDomainModelInvoiceQueryType
+# psrestful.PsDomainModelInvoiceQueryType
 
 ## Enum
 

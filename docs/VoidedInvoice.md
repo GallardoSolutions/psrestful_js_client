@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.VoidedInvoice
+# psrestful.VoidedInvoice
 
 ## Properties
 Name | Type | Description | Notes

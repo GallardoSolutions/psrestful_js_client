@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.LocationInput
+# psrestful.LocationInput
 
 ## Properties
 Name | Type | Description | Notes

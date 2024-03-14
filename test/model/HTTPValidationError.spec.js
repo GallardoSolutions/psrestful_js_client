@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('HTTPValidationError', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.HTTPValidationError();
+        instance = new psrestful.HTTPValidationError();
       });
 
       it('should create an instance of HTTPValidationError', function() {
         // TODO: update the code to test HTTPValidationError
-        expect(instance).to.be.a(PsResTfulServiceApi.HTTPValidationError);
+        expect(instance).to.be.a(psrestful.HTTPValidationError);
       });
 
       it('should have the property detail (base name: "detail")', function() {

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.Item
+# psrestful.Item
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.QuantityUoM
+# psrestful.QuantityUoM
 
 ## Enum
 

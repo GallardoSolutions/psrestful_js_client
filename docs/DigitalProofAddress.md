@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.DigitalProofAddress
+# psrestful.DigitalProofAddress
 
 ## Properties
 Name | Type | Description | Notes

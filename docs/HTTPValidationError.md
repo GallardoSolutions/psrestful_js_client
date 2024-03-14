@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.HTTPValidationError
+# psrestful.HTTPValidationError
 
 ## Properties
 Name | Type | Description | Notes

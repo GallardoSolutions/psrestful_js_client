@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.InvoiceArray
+# psrestful.InvoiceArray
 
 ## Properties
 Name | Type | Description | Notes

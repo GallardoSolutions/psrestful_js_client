@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ResponseToArray', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ResponseToArray();
+        instance = new psrestful.ResponseToArray();
       });
 
       it('should create an instance of ResponseToArray', function() {
         // TODO: update the code to test ResponseToArray
-        expect(instance).to.be.a(PsResTfulServiceApi.ResponseToArray);
+        expect(instance).to.be.a(psrestful.ResponseToArray);
       });
 
       it('should have the property responseTo (base name: "ResponseTo")', function() {

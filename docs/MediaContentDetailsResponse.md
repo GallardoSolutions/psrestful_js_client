@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.MediaContentDetailsResponse
+# psrestful.MediaContentDetailsResponse
 
 ## Properties
 Name | Type | Description | Notes

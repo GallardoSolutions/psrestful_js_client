@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PsDomainModelOrderStatusV100QueryType
+# psrestful.PsDomainModelOrderStatusV100QueryType
 
 ## Enum
 

@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('InventoryLevelsResponseV200', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.InventoryLevelsResponseV200();
+        instance = new psrestful.InventoryLevelsResponseV200();
       });
 
       it('should create an instance of InventoryLevelsResponseV200', function() {
         // TODO: update the code to test InventoryLevelsResponseV200
-        expect(instance).to.be.a(PsResTfulServiceApi.InventoryLevelsResponseV200);
+        expect(instance).to.be.a(psrestful.InventoryLevelsResponseV200);
       });
 
       it('should have the property inventory (base name: "Inventory")', function() {

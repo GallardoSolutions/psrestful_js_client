@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.OrderContactArrayInput
+# psrestful.OrderContactArrayInput
 
 ## Properties
 Name | Type | Description | Notes

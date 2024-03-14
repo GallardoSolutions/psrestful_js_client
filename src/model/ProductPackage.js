@@ -14,7 +14,7 @@
  */
 import ApiClient from '../ApiClient';
 import DimensionUoMOutput from './DimensionUoMOutput';
-import WeightUoM from './WeightUoM';
+import WeightUOM from './WeightUOM';
 
 /**
  * The ProductPackage model module.
@@ -34,7 +34,7 @@ export default class ProductPackage {
    * @param depth {Object} 
    * @param height {Object} 
    * @param width {Object} 
-   * @param weightUom {module:model/WeightUoM} 
+   * @param weightUom {module:model/WeightUOM} 
    * @param weight {Object} 
    */
   constructor(_default, packageType, description, quantity, dimensionUom, depth, height, width, weightUom, weight) {

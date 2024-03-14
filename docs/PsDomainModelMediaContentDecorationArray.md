@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PsDomainModelMediaContentDecorationArray
+# psrestful.PsDomainModelMediaContentDecorationArray
 
 ## Properties
 Name | Type | Description | Notes

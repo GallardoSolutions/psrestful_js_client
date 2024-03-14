@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ProductDateModified
+# psrestful.ProductDateModified
 
 ## Properties
 Name | Type | Description | Notes

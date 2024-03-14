@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.TaxTypeInput
+# psrestful.TaxTypeInput
 
 ## Enum
 

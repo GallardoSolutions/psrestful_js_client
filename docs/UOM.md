@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.UOM
+# psrestful.UOM
 
 ## Enum
 

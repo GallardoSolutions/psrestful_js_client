@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.GetOrderStatusResponseV200
+# psrestful.GetOrderStatusResponseV200
 
 ## Properties
 Name | Type | Description | Notes

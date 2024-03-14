@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ServiceMethod
+# psrestful.ServiceMethod
 
 ## Properties
 Name | Type | Description | Notes

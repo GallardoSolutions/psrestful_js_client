@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ShipmentLocation
+# psrestful.ShipmentLocation
 
 ## Properties
 Name | Type | Description | Notes

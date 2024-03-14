@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.LineType
+# psrestful.LineType
 
 ## Enum
 

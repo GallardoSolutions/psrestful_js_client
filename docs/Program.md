@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.Program
+# psrestful.Program
 
 ## Properties
 Name | Type | Description | Notes

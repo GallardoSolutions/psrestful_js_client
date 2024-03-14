@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.TexInformation
+# psrestful.TexInformation
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ToleranceDetails
+# psrestful.ToleranceDetails
 
 ## Properties
 Name | Type | Description | Notes

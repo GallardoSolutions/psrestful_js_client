@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.Layers
+# psrestful.Layers
 
 ## Properties
 Name | Type | Description | Notes

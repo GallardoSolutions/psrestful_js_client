@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ModelPackage
+# psrestful.ModelPackage
 
 ## Properties
 Name | Type | Description | Notes

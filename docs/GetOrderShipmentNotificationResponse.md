@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.GetOrderShipmentNotificationResponse
+# psrestful.GetOrderShipmentNotificationResponse
 
 ## Properties
 Name | Type | Description | Notes

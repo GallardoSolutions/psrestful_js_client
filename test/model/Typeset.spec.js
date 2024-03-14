@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('Typeset', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.Typeset();
+        instance = new psrestful.Typeset();
       });
 
       it('should create an instance of Typeset', function() {
         // TODO: update the code to test Typeset
-        expect(instance).to.be.a(PsResTfulServiceApi.Typeset);
+        expect(instance).to.be.a(psrestful.Typeset);
       });
 
       it('should have the property sequenceNumber (base name: "sequenceNumber")', function() {

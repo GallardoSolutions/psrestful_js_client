@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PsDomainModelOsnCommonQueryType
+# psrestful.PsDomainModelOsnCommonQueryType
 
 ## Enum
 

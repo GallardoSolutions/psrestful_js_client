@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ConfigurationAndPricingResponse
+# psrestful.ConfigurationAndPricingResponse
 
 ## Properties
 Name | Type | Description | Notes

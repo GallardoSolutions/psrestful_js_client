@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PsDomainModelProductDataCommonFobPoint
+# psrestful.PsDomainModelProductDataCommonFobPoint
 
 ## Properties
 Name | Type | Description | Notes

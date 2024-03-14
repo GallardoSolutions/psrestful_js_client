@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.FilterValuesResponseV200
+# psrestful.FilterValuesResponseV200
 
 ## Properties
 Name | Type | Description | Notes

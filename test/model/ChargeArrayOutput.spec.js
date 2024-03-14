@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ChargeArrayOutput', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ChargeArrayOutput();
+        instance = new psrestful.ChargeArrayOutput();
       });
 
       it('should create an instance of ChargeArrayOutput', function() {
         // TODO: update the code to test ChargeArrayOutput
-        expect(instance).to.be.a(PsResTfulServiceApi.ChargeArrayOutput);
+        expect(instance).to.be.a(psrestful.ChargeArrayOutput);
       });
 
       it('should have the property charge (base name: "Charge")', function() {

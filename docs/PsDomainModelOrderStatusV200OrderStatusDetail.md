@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PsDomainModelOrderStatusV200OrderStatusDetail
+# psrestful.PsDomainModelOrderStatusV200OrderStatusDetail
 
 ## Properties
 Name | Type | Description | Notes

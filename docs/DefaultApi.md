@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.DefaultApi
+# psrestful.DefaultApi
 
 All URIs are relative to *https://api.psrestful.com/*
 
@@ -15,9 +15,9 @@ Get Service Codes
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
+import {psrestful} from 'ps_res_tful_service_api';
 
-let apiInstance = new PsResTfulServiceApi.DefaultApi();
+let apiInstance = new psrestful.DefaultApi();
 apiInstance.getServiceCodes((error, data, response) => {
   if (error) {
     console.error(error);
@@ -51,9 +51,9 @@ Get Services
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
+import {psrestful} from 'ps_res_tful_service_api';
 
-let apiInstance = new PsResTfulServiceApi.DefaultApi();
+let apiInstance = new psrestful.DefaultApi();
 let supplierCode = null; // Object | 
 
 apiInstance.getServices(supplierCode, (error, data, response) => {

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.DecorationColorResponse
+# psrestful.DecorationColorResponse
 
 ## Properties
 Name | Type | Description | Notes

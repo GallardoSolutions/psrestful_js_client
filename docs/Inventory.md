@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.Inventory
+# psrestful.Inventory
 
 ## Properties
 Name | Type | Description | Notes

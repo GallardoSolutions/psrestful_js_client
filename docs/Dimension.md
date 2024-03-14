@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.Dimension
+# psrestful.Dimension
 
 ## Properties
 Name | Type | Description | Notes

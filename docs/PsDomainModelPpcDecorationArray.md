@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PsDomainModelPpcDecorationArray
+# psrestful.PsDomainModelPpcDecorationArray
 
 ## Properties
 Name | Type | Description | Notes

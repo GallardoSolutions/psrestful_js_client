@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,7 +31,7 @@
   describe('(package)', function() {
     describe('TaxTypeOutput', function() {
       beforeEach(function() {
-        instance = PsResTfulServiceApi.TaxTypeOutput;
+        instance = psrestful.TaxTypeOutput;
       });
 
       it('should create an instance of TaxTypeOutput', function() {

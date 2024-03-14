@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ProductVariationInventoryArray
+# psrestful.ProductVariationInventoryArray
 
 ## Properties
 Name | Type | Description | Notes

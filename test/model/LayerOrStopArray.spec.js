@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('LayerOrStopArray', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.LayerOrStopArray();
+        instance = new psrestful.LayerOrStopArray();
       });
 
       it('should create an instance of LayerOrStopArray', function() {
         // TODO: update the code to test LayerOrStopArray
-        expect(instance).to.be.a(PsResTfulServiceApi.LayerOrStopArray);
+        expect(instance).to.be.a(psrestful.LayerOrStopArray);
       });
 
       it('should have the property layerOrStop (base name: "LayerOrStop")', function() {

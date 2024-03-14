@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('Dimensions', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.Dimensions();
+        instance = new psrestful.Dimensions();
       });
 
       it('should create an instance of Dimensions', function() {
         // TODO: update the code to test Dimensions
-        expect(instance).to.be.a(PsResTfulServiceApi.Dimensions);
+        expect(instance).to.be.a(psrestful.Dimensions);
       });
 
       it('should have the property geometry (base name: "geometry")', function() {

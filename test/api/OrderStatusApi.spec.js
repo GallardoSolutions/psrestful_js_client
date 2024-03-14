@@ -21,15 +21,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new PsResTfulServiceApi.OrderStatusApi();
+    instance = new psrestful.OrderStatusApi();
   });
 
   describe('(package)', function() {
@@ -46,7 +46,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.GetIssueResponseV200);
+            expect(data).to.be.a(psrestful.GetIssueResponseV200);
 
             done();
           });
@@ -67,7 +67,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.OrderStatusDetailsResponse);
+            expect(data).to.be.a(psrestful.OrderStatusDetailsResponse);
 
             done();
           });
@@ -88,7 +88,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.OrderStatusTypesResponse);
+            expect(data).to.be.a(psrestful.OrderStatusTypesResponse);
 
             done();
           });
@@ -109,7 +109,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.GetOrderStatusResponseV200);
+            expect(data).to.be.a(psrestful.GetOrderStatusResponseV200);
 
             done();
           });
@@ -130,7 +130,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.GetServiceMethodsResponseV200);
+            expect(data).to.be.a(psrestful.GetServiceMethodsResponseV200);
 
             done();
           });

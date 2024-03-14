@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ReferenceNuberType
+# psrestful.ReferenceNuberType
 
 ## Enum
 

@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ValidationError', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ValidationError();
+        instance = new psrestful.ValidationError();
       });
 
       it('should create an instance of ValidationError', function() {
         // TODO: update the code to test ValidationError
-        expect(instance).to.be.a(PsResTfulServiceApi.ValidationError);
+        expect(instance).to.be.a(psrestful.ValidationError);
       });
 
       it('should have the property loc (base name: "loc")', function() {

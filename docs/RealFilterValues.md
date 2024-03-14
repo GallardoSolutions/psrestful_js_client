@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.RealFilterValues
+# psrestful.RealFilterValues
 
 ## Properties
 Name | Type | Description | Notes

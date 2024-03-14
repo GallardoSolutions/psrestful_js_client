@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ShipmentLinkArray', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ShipmentLinkArray();
+        instance = new psrestful.ShipmentLinkArray();
       });
 
       it('should create an instance of ShipmentLinkArray', function() {
         // TODO: update the code to test ShipmentLinkArray
-        expect(instance).to.be.a(PsResTfulServiceApi.ShipmentLinkArray);
+        expect(instance).to.be.a(psrestful.ShipmentLinkArray);
       });
 
       it('should have the property shipmentLink (base name: "ShipmentLink")', function() {

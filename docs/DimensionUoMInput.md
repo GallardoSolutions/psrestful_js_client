@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.DimensionUoMInput
+# psrestful.DimensionUoMInput
 
 ## Enum
 

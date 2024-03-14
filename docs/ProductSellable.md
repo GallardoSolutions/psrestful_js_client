@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ProductSellable
+# psrestful.ProductSellable
 
 ## Properties
 Name | Type | Description | Notes

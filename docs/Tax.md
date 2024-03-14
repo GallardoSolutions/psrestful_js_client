@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.Tax
+# psrestful.Tax
 
 ## Properties
 Name | Type | Description | Notes

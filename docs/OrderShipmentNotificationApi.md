@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.OrderShipmentNotificationApi
+# psrestful.OrderShipmentNotificationApi
 
 All URIs are relative to *https://api.psrestful.com/*
 
@@ -15,8 +15,8 @@ Get Order Shipment Notification V100
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
-let defaultClient = PsResTfulServiceApi.ApiClient.instance;
+import {psrestful} from 'ps_res_tful_service_api';
+let defaultClient = psrestful.ApiClient.instance;
 
 // Configure API key authorization: APIKeyHeader
 let APIKeyHeader = defaultClient.authentications['APIKeyHeader'];
@@ -32,9 +32,9 @@ HTTPBasic.password = 'YOUR PASSWORD';
 let OAuth2PasswordBearer = defaultClient.authentications['OAuth2PasswordBearer'];
 OAuth2PasswordBearer.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new PsResTfulServiceApi.OrderShipmentNotificationApi();
+let apiInstance = new psrestful.OrderShipmentNotificationApi();
 let supplierCode = null; // Object | 
-let queryType = new PsResTfulServiceApi.PsDomainModelOsnCommonQueryType(); // PsDomainModelOsnCommonQueryType | 
+let queryType = new psrestful.PsDomainModelOsnCommonQueryType(); // PsDomainModelOsnCommonQueryType | 
 let opts = { 
   'body': null, // Object | 
   'referenceNumber': null, // Object | 
@@ -86,8 +86,8 @@ Get Order Shipment Notification V200
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
-let defaultClient = PsResTfulServiceApi.ApiClient.instance;
+import {psrestful} from 'ps_res_tful_service_api';
+let defaultClient = psrestful.ApiClient.instance;
 
 // Configure API key authorization: APIKeyHeader
 let APIKeyHeader = defaultClient.authentications['APIKeyHeader'];
@@ -103,9 +103,9 @@ HTTPBasic.password = 'YOUR PASSWORD';
 let OAuth2PasswordBearer = defaultClient.authentications['OAuth2PasswordBearer'];
 OAuth2PasswordBearer.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new PsResTfulServiceApi.OrderShipmentNotificationApi();
+let apiInstance = new psrestful.OrderShipmentNotificationApi();
 let supplierCode = null; // Object | 
-let queryType = new PsResTfulServiceApi.PsDomainModelOsnCommonQueryType(); // PsDomainModelOsnCommonQueryType | 
+let queryType = new psrestful.PsDomainModelOsnCommonQueryType(); // PsDomainModelOsnCommonQueryType | 
 let opts = { 
   'body': null, // Object | 
   'referenceNumber': null, // Object | 

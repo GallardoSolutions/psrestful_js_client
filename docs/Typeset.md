@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.Typeset
+# psrestful.Typeset
 
 ## Properties
 Name | Type | Description | Notes

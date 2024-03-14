@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('GetVoidedResponse', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.GetVoidedResponse();
+        instance = new psrestful.GetVoidedResponse();
       });
 
       it('should create an instance of GetVoidedResponse', function() {
         // TODO: update the code to test GetVoidedResponse
-        expect(instance).to.be.a(PsResTfulServiceApi.GetVoidedResponse);
+        expect(instance).to.be.a(psrestful.GetVoidedResponse);
       });
 
       it('should have the property voidedInvoiceArray (base name: "VoidedInvoiceArray")', function() {

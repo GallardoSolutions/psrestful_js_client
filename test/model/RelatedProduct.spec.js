@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('RelatedProduct', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.RelatedProduct();
+        instance = new psrestful.RelatedProduct();
       });
 
       it('should create an instance of RelatedProduct', function() {
         // TODO: update the code to test RelatedProduct
-        expect(instance).to.be.a(PsResTfulServiceApi.RelatedProduct);
+        expect(instance).to.be.a(psrestful.RelatedProduct);
       });
 
       it('should have the property relationType (base name: "relationType")', function() {

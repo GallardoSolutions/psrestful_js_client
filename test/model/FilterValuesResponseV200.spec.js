@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('FilterValuesResponseV200', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.FilterValuesResponseV200();
+        instance = new psrestful.FilterValuesResponseV200();
       });
 
       it('should create an instance of FilterValuesResponseV200', function() {
         // TODO: update the code to test FilterValuesResponseV200
-        expect(instance).to.be.a(PsResTfulServiceApi.FilterValuesResponseV200);
+        expect(instance).to.be.a(psrestful.FilterValuesResponseV200);
       });
 
       it('should have the property filterValues (base name: "FilterValues")', function() {

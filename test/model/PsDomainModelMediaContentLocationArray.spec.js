@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('PsDomainModelMediaContentLocationArray', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.PsDomainModelMediaContentLocationArray();
+        instance = new psrestful.PsDomainModelMediaContentLocationArray();
       });
 
       it('should create an instance of PsDomainModelMediaContentLocationArray', function() {
         // TODO: update the code to test PsDomainModelMediaContentLocationArray
-        expect(instance).to.be.a(PsResTfulServiceApi.PsDomainModelMediaContentLocationArray);
+        expect(instance).to.be.a(psrestful.PsDomainModelMediaContentLocationArray);
       });
 
       it('should have the property location (base name: "Location")', function() {

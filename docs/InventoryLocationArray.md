@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.InventoryLocationArray
+# psrestful.InventoryLocationArray
 
 ## Properties
 Name | Type | Description | Notes

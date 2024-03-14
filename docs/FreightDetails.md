@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.FreightDetails
+# psrestful.FreightDetails
 
 ## Properties
 Name | Type | Description | Notes

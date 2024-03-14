@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.GetIssueResponseV200
+# psrestful.GetIssueResponseV200
 
 ## Properties
 Name | Type | Description | Notes

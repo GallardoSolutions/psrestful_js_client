@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.LabelSizeArray
+# psrestful.LabelSizeArray
 
 ## Properties
 Name | Type | Description | Notes

@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ServiceMethod', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ServiceMethod();
+        instance = new psrestful.ServiceMethod();
       });
 
       it('should create an instance of ServiceMethod', function() {
         // TODO: update the code to test ServiceMethod
-        expect(instance).to.be.a(PsResTfulServiceApi.ServiceMethod);
+        expect(instance).to.be.a(psrestful.ServiceMethod);
       });
 
       it('should have the property serviceMethod (base name: "serviceMethod")', function() {

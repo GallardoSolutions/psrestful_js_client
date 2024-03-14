@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ChargePrice
+# psrestful.ChargePrice
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.GetVoidedResponse
+# psrestful.GetVoidedResponse
 
 ## Properties
 Name | Type | Description | Notes

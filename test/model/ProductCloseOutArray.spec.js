@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ProductCloseOutArray', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ProductCloseOutArray();
+        instance = new psrestful.ProductCloseOutArray();
       });
 
       it('should create an instance of ProductCloseOutArray', function() {
         // TODO: update the code to test ProductCloseOutArray
-        expect(instance).to.be.a(PsResTfulServiceApi.ProductCloseOutArray);
+        expect(instance).to.be.a(psrestful.ProductCloseOutArray);
       });
 
       it('should have the property productCloseOut (base name: "ProductCloseOut")', function() {

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.PsDomainModelPpcFobPoint
+# psrestful.PsDomainModelPpcFobPoint
 
 ## Properties
 Name | Type | Description | Notes

@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('LabelSizeArray', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.LabelSizeArray();
+        instance = new psrestful.LabelSizeArray();
       });
 
       it('should create an instance of LabelSizeArray', function() {
         // TODO: update the code to test LabelSizeArray
-        expect(instance).to.be.a(PsResTfulServiceApi.LabelSizeArray);
+        expect(instance).to.be.a(psrestful.LabelSizeArray);
       });
 
       it('should have the property labelSize (base name: "labelSize")', function() {

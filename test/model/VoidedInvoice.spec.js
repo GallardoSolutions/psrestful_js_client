@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('VoidedInvoice', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.VoidedInvoice();
+        instance = new psrestful.VoidedInvoice();
       });
 
       it('should create an instance of VoidedInvoice', function() {
         // TODO: update the code to test VoidedInvoice
-        expect(instance).to.be.a(PsResTfulServiceApi.VoidedInvoice);
+        expect(instance).to.be.a(psrestful.VoidedInvoice);
       });
 
       it('should have the property invoiceNumber (base name: "invoiceNumber")', function() {

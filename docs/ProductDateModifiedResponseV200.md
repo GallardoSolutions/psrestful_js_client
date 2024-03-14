@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ProductDateModifiedResponseV200
+# psrestful.ProductDateModifiedResponseV200
 
 ## Properties
 Name | Type | Description | Notes

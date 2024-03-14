@@ -21,15 +21,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new PsResTfulServiceApi.OrderShipmentNotificationApi();
+    instance = new psrestful.OrderShipmentNotificationApi();
   });
 
   describe('(package)', function() {
@@ -46,7 +46,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.GetOrderShipmentNotificationResponse);
+            expect(data).to.be.a(psrestful.GetOrderShipmentNotificationResponse);
 
             done();
           });
@@ -67,7 +67,7 @@
               return;
             }
             // TODO: update response assertions
-            expect(data).to.be.a(PsResTfulServiceApi.GetOrderShipmentNotificationResponse);
+            expect(data).to.be.a(psrestful.GetOrderShipmentNotificationResponse);
 
             done();
           });

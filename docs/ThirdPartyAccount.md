@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ThirdPartyAccount
+# psrestful.ThirdPartyAccount
 
 ## Properties
 Name | Type | Description | Notes

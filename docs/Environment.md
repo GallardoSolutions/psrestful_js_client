@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.Environment
+# psrestful.Environment
 
 ## Enum
 

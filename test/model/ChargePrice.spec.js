@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ChargePrice', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ChargePrice();
+        instance = new psrestful.ChargePrice();
       });
 
       it('should create an instance of ChargePrice', function() {
         // TODO: update the code to test ChargePrice
-        expect(instance).to.be.a(PsResTfulServiceApi.ChargePrice);
+        expect(instance).to.be.a(psrestful.ChargePrice);
       });
 
       it('should have the property xMinQty (base name: "xMinQty")', function() {

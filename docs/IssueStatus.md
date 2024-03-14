@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.IssueStatus
+# psrestful.IssueStatus
 
 ## Enum
 

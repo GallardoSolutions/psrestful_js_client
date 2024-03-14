@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('Layers', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.Layers();
+        instance = new psrestful.Layers();
       });
 
       it('should create an instance of Layers', function() {
         // TODO: update the code to test Layers
-        expect(instance).to.be.a(PsResTfulServiceApi.Layers);
+        expect(instance).to.be.a(psrestful.Layers);
       });
 
       it('should have the property colorSystem (base name: "colorSystem")', function() {

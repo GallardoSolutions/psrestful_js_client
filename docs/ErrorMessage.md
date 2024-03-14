@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ErrorMessage
+# psrestful.ErrorMessage
 
 ## Properties
 Name | Type | Description | Notes

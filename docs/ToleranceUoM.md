@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ToleranceUoM
+# psrestful.ToleranceUoM
 
 ## Enum
 

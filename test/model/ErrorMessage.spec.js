@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ErrorMessage', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ErrorMessage();
+        instance = new psrestful.ErrorMessage();
       });
 
       it('should create an instance of ErrorMessage', function() {
         // TODO: update the code to test ErrorMessage
-        expect(instance).to.be.a(PsResTfulServiceApi.ErrorMessage);
+        expect(instance).to.be.a(psrestful.ErrorMessage);
       });
 
       it('should have the property code (base name: "code")', function() {

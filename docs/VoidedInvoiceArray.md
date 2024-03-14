@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.VoidedInvoiceArray
+# psrestful.VoidedInvoiceArray
 
 ## Properties
 Name | Type | Description | Notes

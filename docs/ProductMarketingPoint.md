@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ProductMarketingPoint
+# psrestful.ProductMarketingPoint
 
 ## Properties
 Name | Type | Description | Notes

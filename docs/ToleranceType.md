@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ToleranceType
+# psrestful.ToleranceType
 
 ## Enum
 

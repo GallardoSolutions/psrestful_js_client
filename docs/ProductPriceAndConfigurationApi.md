@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ProductPriceAndConfigurationApi
+# psrestful.ProductPriceAndConfigurationApi
 
 All URIs are relative to *https://api.psrestful.com/*
 
@@ -18,8 +18,8 @@ Get Available Charges
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
-let defaultClient = PsResTfulServiceApi.ApiClient.instance;
+import {psrestful} from 'ps_res_tful_service_api';
+let defaultClient = psrestful.ApiClient.instance;
 
 // Configure API key authorization: APIKeyHeader
 let APIKeyHeader = defaultClient.authentications['APIKeyHeader'];
@@ -35,7 +35,7 @@ HTTPBasic.password = 'YOUR PASSWORD';
 let OAuth2PasswordBearer = defaultClient.authentications['OAuth2PasswordBearer'];
 OAuth2PasswordBearer.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new PsResTfulServiceApi.ProductPriceAndConfigurationApi();
+let apiInstance = new psrestful.ProductPriceAndConfigurationApi();
 let supplierCode = null; // Object | 
 let productId = null; // Object | 
 let opts = { 
@@ -89,8 +89,8 @@ Get Available Locations
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
-let defaultClient = PsResTfulServiceApi.ApiClient.instance;
+import {psrestful} from 'ps_res_tful_service_api';
+let defaultClient = psrestful.ApiClient.instance;
 
 // Configure API key authorization: APIKeyHeader
 let APIKeyHeader = defaultClient.authentications['APIKeyHeader'];
@@ -106,7 +106,7 @@ HTTPBasic.password = 'YOUR PASSWORD';
 let OAuth2PasswordBearer = defaultClient.authentications['OAuth2PasswordBearer'];
 OAuth2PasswordBearer.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new PsResTfulServiceApi.ProductPriceAndConfigurationApi();
+let apiInstance = new psrestful.ProductPriceAndConfigurationApi();
 let supplierCode = null; // Object | 
 let productId = null; // Object | 
 let opts = { 
@@ -160,8 +160,8 @@ Get Configuration And Pricing
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
-let defaultClient = PsResTfulServiceApi.ApiClient.instance;
+import {psrestful} from 'ps_res_tful_service_api';
+let defaultClient = psrestful.ApiClient.instance;
 
 // Configure API key authorization: APIKeyHeader
 let APIKeyHeader = defaultClient.authentications['APIKeyHeader'];
@@ -177,12 +177,12 @@ HTTPBasic.password = 'YOUR PASSWORD';
 let OAuth2PasswordBearer = defaultClient.authentications['OAuth2PasswordBearer'];
 OAuth2PasswordBearer.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new PsResTfulServiceApi.ProductPriceAndConfigurationApi();
+let apiInstance = new psrestful.ProductPriceAndConfigurationApi();
 let supplierCode = null; // Object | 
 let productId = null; // Object | 
 let currency = null; // Object | 
 let fobId = null; // Object | 
-let priceType = new PsResTfulServiceApi.PriceType(); // PriceType | 
+let priceType = new psrestful.PriceType(); // PriceType | 
 let opts = { 
   'body': null, // Object | 
   'configurationType': Decorated, // Object | 
@@ -241,8 +241,8 @@ Get Decoration Colors
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
-let defaultClient = PsResTfulServiceApi.ApiClient.instance;
+import {psrestful} from 'ps_res_tful_service_api';
+let defaultClient = psrestful.ApiClient.instance;
 
 // Configure API key authorization: APIKeyHeader
 let APIKeyHeader = defaultClient.authentications['APIKeyHeader'];
@@ -258,7 +258,7 @@ HTTPBasic.password = 'YOUR PASSWORD';
 let OAuth2PasswordBearer = defaultClient.authentications['OAuth2PasswordBearer'];
 OAuth2PasswordBearer.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new PsResTfulServiceApi.ProductPriceAndConfigurationApi();
+let apiInstance = new psrestful.ProductPriceAndConfigurationApi();
 let supplierCode = null; // Object | 
 let productId = null; // Object | 
 let locationId = null; // Object | 
@@ -316,8 +316,8 @@ Get Fob Points
 
 ### Example
 ```javascript
-import {PsResTfulServiceApi} from 'ps_res_tful_service_api';
-let defaultClient = PsResTfulServiceApi.ApiClient.instance;
+import {psrestful} from 'ps_res_tful_service_api';
+let defaultClient = psrestful.ApiClient.instance;
 
 // Configure API key authorization: APIKeyHeader
 let APIKeyHeader = defaultClient.authentications['APIKeyHeader'];
@@ -333,7 +333,7 @@ HTTPBasic.password = 'YOUR PASSWORD';
 let OAuth2PasswordBearer = defaultClient.authentications['OAuth2PasswordBearer'];
 OAuth2PasswordBearer.accessToken = 'YOUR ACCESS TOKEN';
 
-let apiInstance = new PsResTfulServiceApi.ProductPriceAndConfigurationApi();
+let apiInstance = new psrestful.ProductPriceAndConfigurationApi();
 let supplierCode = null; // Object | 
 let productId = null; // Object | 
 let opts = { 

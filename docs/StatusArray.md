@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.StatusArray
+# psrestful.StatusArray
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.AvailableLocationArray
+# psrestful.AvailableLocationArray
 
 ## Properties
 Name | Type | Description | Notes

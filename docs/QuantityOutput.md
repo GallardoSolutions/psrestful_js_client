@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.QuantityOutput
+# psrestful.QuantityOutput
 
 ## Properties
 Name | Type | Description | Notes

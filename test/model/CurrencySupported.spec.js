@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('CurrencySupported', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.CurrencySupported();
+        instance = new psrestful.CurrencySupported();
       });
 
       it('should create an instance of CurrencySupported', function() {
         // TODO: update the code to test CurrencySupported
-        expect(instance).to.be.a(PsResTfulServiceApi.CurrencySupported);
+        expect(instance).to.be.a(psrestful.CurrencySupported);
       });
 
       it('should have the property currency (base name: "currency")', function() {

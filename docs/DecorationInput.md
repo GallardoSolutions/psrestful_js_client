@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.DecorationInput
+# psrestful.DecorationInput
 
 ## Properties
 Name | Type | Description | Notes

@@ -21,9 +21,9 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.PsResTfulServiceApi);
+    factory(root.expect, root.psrestful);
   }
-}(this, function(expect, PsResTfulServiceApi) {
+}(this, function(expect, psrestful) {
   'use strict';
 
   var instance;
@@ -31,12 +31,12 @@
   describe('(package)', function() {
     describe('ArtworkFile', function() {
       beforeEach(function() {
-        instance = new PsResTfulServiceApi.ArtworkFile();
+        instance = new psrestful.ArtworkFile();
       });
 
       it('should create an instance of ArtworkFile', function() {
         // TODO: update the code to test ArtworkFile
-        expect(instance).to.be.a(PsResTfulServiceApi.ArtworkFile);
+        expect(instance).to.be.a(psrestful.ArtworkFile);
       });
 
       it('should have the property fileName (base name: "fileName")', function() {

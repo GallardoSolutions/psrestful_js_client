@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.SalesOrderNumbersArray
+# psrestful.SalesOrderNumbersArray
 
 ## Properties
 Name | Type | Description | Notes

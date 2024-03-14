@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ChargeArrayOutput
+# psrestful.ChargeArrayOutput
 
 ## Properties
 Name | Type | Description | Notes

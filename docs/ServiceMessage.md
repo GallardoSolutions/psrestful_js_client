@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.ServiceMessage
+# psrestful.ServiceMessage
 
 ## Properties
 Name | Type | Description | Notes

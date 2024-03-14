@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.Severity
+# psrestful.Severity
 
 ## Enum
 

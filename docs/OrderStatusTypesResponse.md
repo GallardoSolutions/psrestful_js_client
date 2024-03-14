@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.OrderStatusTypesResponse
+# psrestful.OrderStatusTypesResponse
 
 ## Properties
 Name | Type | Description | Notes

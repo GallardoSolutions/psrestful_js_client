@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.RelatedProductArray
+# psrestful.RelatedProductArray
 
 ## Properties
 Name | Type | Description | Notes

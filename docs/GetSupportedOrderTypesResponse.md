@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.GetSupportedOrderTypesResponse
+# psrestful.GetSupportedOrderTypesResponse
 
 ## Properties
 Name | Type | Description | Notes

@@ -1,4 +1,4 @@
-# PsResTfulServiceApi.LayerOrStopArray
+# psrestful.LayerOrStopArray
 
 ## Properties
 Name | Type | Description | Notes
