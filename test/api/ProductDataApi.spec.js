@@ -29,7 +29,7 @@
   var instance;
 
   beforeEach(function() {
-    instance = new psrestful.psrestful();
+    instance = new psrestful.ProductDataApi();
   });
 
   describe('(package)', function() {

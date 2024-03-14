@@ -1,8 +1,7 @@
 {
   "name": "psrestful",
   "version": "0.0.1",
-  "description": "A proxy service for PromoStandards SOAP/XML to a REST/JSON  API",
-  "license": "Unlicense",
+  "description": "A proxy service for PromoStandards SOAP/XML to a REST/JSON API",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -11,6 +10,21 @@
   "browser": {
     "fs": false
   },
+  "maintainers": [
+    {
+      "name": "Edilio Gallardo",
+      "website": "https://psrestful.com/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github:GallardoSolutions/psrestful_js_client.git"
+  },
+  "keywords": [
+    "PromoStandards SDK",
+    "PSRESTful SDK"
+  ],
+  "author": "Edilio Gallardo",
   "dependencies": {
     "@babel/cli": "^7.0.0",
     "superagent": "^5.3.0"
@@ -38,5 +52,6 @@
     "expect.js": "^0.3.1",
     "mocha": "^10.3.0",
     "sinon": "^7.2.0"
-  }
+  },
+  "license": "MIT"
 }
